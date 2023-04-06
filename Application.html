@@ -73,17 +73,28 @@
         <div class="custom_heading-container">
           <hr>
           <h2>
-            English Dictionary
+            Body Mass Index (BMI) Calculator
           </h2>
 
         </div>
         <p>
-          Simple English Dictionary using HTML CSS JS and Dictionary API.
+          BMI (body mass index) is a measure of whether you're a healthy weight for your height
         </p>
       </div>
     </div>
     <div class="container">
       <div class="service_container layout_padding2">
+
+        <div class="container1 container">
+          <h1 class="heading">Body Mass Index (BMI) Calculator</h1>
+          Your Height (cm):
+          <input type="number" class="input" id="height" value="180" placeholder="Enter your height in cm">
+          Your Weight (kg):
+          <input type="number" class="input" id="weight" value="80" placeholder="Enter your weight in kg">
+          <button class="btn" id="btn">Compute BMI</button>
+          <input disabled type="text" class="input" id="bmi-result">
+          <h4 class="info-text">Weight Condition: <span id="weight-condition"></span></h4>
+        </div>
 
       </div>
     </div>
@@ -129,6 +140,7 @@
       <a href="">WebStudio</a>
     </p>
   </section>
+  <script type="text/javascript" src="js/index.js"></script>
   <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.js"></script>
 </body>
